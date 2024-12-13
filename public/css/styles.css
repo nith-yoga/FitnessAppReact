@@ -1,0 +1,62 @@
+/* Base styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #290404;
+}
+
+/* Centering container */
+.user-container {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Header styling */
+.user-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Grid layout for user cards */
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* User card styling */
+.user-card {
+    border: 1px solid #570505;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #e54141;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Card text styling */
+.user-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.user-card p {
+    margin: 5px 0;
+    color: #fff;
+}
