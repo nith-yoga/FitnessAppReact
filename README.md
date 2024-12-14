@@ -1,8 +1,10 @@
-# React + Vite
+#Fitness App React Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The site is deployed on Vercel here: https://fitness-app-react-peach.vercel.app/
 
-Currently, two official plugins are available:
+## In Case of Error
+If the deployed website shows a connection error when trying to load the users:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. You can find the backend Express app here: https://github.com/nith-yoga/FitnessAppAssignment.git
+2. Use `node app.js` to run this app.
+3. Then run this app with `npm run dev` and everything should connect.
